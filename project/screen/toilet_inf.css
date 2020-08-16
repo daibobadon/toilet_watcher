@@ -1,0 +1,89 @@
+@charset "UTF-8";
+
+html{
+    font-family: serif;
+    text-align: center;
+}
+
+html * {
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0 0 0 0;
+    background-image: url("toilet_back.jpg");
+}
+
+.wrapper{
+    margin: 0 auto 0 auto;
+    max-width: 960px;
+}
+
+h1{
+    color: #3f5170;
+    font-size: 30px;
+    border-bottom: 3px dotted #3f5170;
+    margin-top: 10px;
+    margin-right: 0px;
+    margin-bottom: 10px;
+    margin-left: 0px;
+    padding-top: 5px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+}
+
+button.button{
+    color: #fff;
+    background-color: #f56200;
+    border-radius: 100vh;
+    font-size: large;
+    display: block;
+}
+
+button.button:hover{
+    color: #fff;
+    background: #f56500;
+}
+
+button.button1{
+    font-size: 1.2em;
+    font-weight: bold;
+    padding: 10px 20px;
+    margin: 10px 3%;
+}
+
+#parent {
+    position: relative;
+  }
+#parent img {
+    transition: all 500ms 0s ease;
+    position: absolute; top:0; left:0; 
+    width: 960px;
+    height: 660px;
+  }
+.on {
+    opacity: 1;
+  }
+.off {
+    opacity: 0;
+  }
+
+/*スマホ向けCSS*/
+@media (max-width: 767px){
+
+html{
+    font-family: serif;
+    text-align: center;
+}
+    
+html * {
+    box-sizing: border-box;
+}
+
+#parent img{
+    margin: 0 0 0 0;
+    width: 414px;
+    height: 467px;
+}
+}

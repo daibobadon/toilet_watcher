@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="sinki.css">
+    <title>新規ユーザー登録画面</title>
+</head>
+<body>
+<div class="wrapper">
+    <header>
+        <h1>新規ユーザー登録画面</h1>
+        <button class="button" type="button" onclick="location.href='./login.html'">戻る</button>
+        <h2>ユーザーID、ユーザー名設定</h2>
+    </header>
+    <main>
+    <!--<form method="POST">-->
+    <form method="GET" action="result.html">
+    <div class="y_id">
+        <label class="id">ユーザーID<br>
+        <input type="text" name="userId" placeholder="半角英数字"></label><br>
+    </div>
+    <div class="y_name">
+        <label class="name">ユーザー名<br>
+        <input type="text" name="userName" placeholder="ニックネーム"></label><br>
+    </div>
+        <h3>メールアドレス、パスワード設定</h3>
+    <div class="y_mail">
+        <label class="mail">メールアドレス<br>
+        <input type="text" name="userMail" placeholder="半角英数字"></label><br>
+    </div>
+    <div class="y_pass1">    
+        <label class="pass1">パスワード<br>
+        <input type="password" name="pass1" maxlength="16" placeholder="半角英数字8~16文字以内"></label><br>
+    </div>
+    <div class="y_pass2" >  
+        <label class="pass2">パスワード<span>※(確認用)</span><br>
+        <input type="password" name="pass2" maxlength="16"></label><br>
+    </div>
+        <!--<input type="submit" value="登録確認画面へ" onclick="window.alert('正しく入力して下さい')"></input>-->
+        <!--<input type="submit" value="登録確認画面へ" onclick="window.alert('そのユーザIDは存在しています。')"></input>-->
+        <input type="submit" value="登録確認画面へ"></input>
+    </form>
+    </main>
+<!--<p>このアプリを利用するには、<br><a href="https://www.lixil.co.jp/lineup/toiletroom/">利用規約</a>・<a href="https://www.lixil.co.jp/lineup/toiletroom/">個人情報</a>のお取り扱いをよくお読みください。</p>-->
+</div>
+</body>

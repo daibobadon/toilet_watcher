@@ -1,0 +1,295 @@
+@charset "UTF-8";
+
+html{
+    font-family: serif;
+    text-align: center;
+}
+
+html * {
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url("toilet_back.jpg");
+}
+
+.wrapper{
+    margin: 0 auto 0 auto;
+	max-width: 960px;
+}
+
+h1{
+    color: #3f5170;
+    font-size: 30px;
+    border-bottom: 3px dotted #3f5170;
+    margin-top: 10px;
+    margin-right: 0px;
+    margin-bottom: 10px;
+    margin-left: 0px;
+    padding-top: 5px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+}
+
+
+h2{
+    font-size: 30px;
+}
+
+h3{
+    font-size: 30px;
+}
+
+.y_id{
+	position: relative;
+	width: 95%;
+	margin: 10px 3%;
+}
+
+.id {
+    font: outline;
+}
+
+.y_id input[type='text']{
+	font: 15px/24px sans-serif;
+	box-sizing: border-box;
+	width: 30%;
+	padding: 0.3em;
+	transition: 0.3s;
+	letter-spacing: 1px;
+	color: black;
+	border: 1px solid #1b2538;
+	border-radius: 4px;
+}
+
+.id input[type='text']:focus{
+	border: 1px solid #da3c41;
+	outline: none;
+	box-shadow: 0 0 5px 1px rgba(218,60,65, .5);
+}
+
+.y_name{
+	position: relative;
+	width: 95%;
+	margin: 30px 3%;
+}
+
+.y_name input[type='text']{
+	font: 15px/24px sans-serif;
+	box-sizing: border-box;
+	width: 30%;
+	padding: 0.3em;
+	transition: 0.3s;
+	letter-spacing: 1px;
+	color: black;
+	border: 1px solid #1b2538;
+	border-radius: 4px;
+}
+
+.name input[type='text']:focus{
+	border: 1px solid #da3c41;
+	outline: none;
+	box-shadow: 0 0 5px 1px rgba(218,60,65, .5);
+}
+
+.y_mail{
+	position: relative;
+	width: 95%;
+	margin: 10px 3%;
+}
+
+.y_mail input[type='text']{
+	font: 15px/24px sans-serif;
+	box-sizing: border-box;
+	width: 30%;
+	padding: 0.3em;
+	transition: 0.3s;
+	letter-spacing: 1px;
+	color: black;
+	border: 1px solid #1b2538;
+	border-radius: 4px;
+}
+
+.mail input[type='text']:focus{
+	border: 1px solid #da3c41;
+	outline: none;
+	box-shadow: 0 0 5px 1px rgba(218,60,65, .5);
+}
+
+.y_pass1{
+	position: relative;
+	width: 95%;
+	margin: 30px 3%;
+}
+
+.y_pass1 input[type='password']{
+	font: 15px/24px sans-serif;
+	box-sizing: border-box;
+	width: 30%;
+	padding: 0.3em;
+	transition: 0.3s;
+	letter-spacing: 1px;
+	color: black;
+	border: 1px solid #1b2538;
+	border-radius: 4px;
+}
+
+.pass1 input[type='password']:focus{
+	border: 1px solid #da3c41;
+	outline: none;
+    box-shadow: 0 0 5px 1px rgba(218,60,65, .5);
+}
+
+.y_pass2{
+	position: relative;
+	width: 95%;
+	margin: 30px 3%;
+}
+
+.y_pass2 input[type='password']{
+	font: 15px/24px sans-serif;
+	box-sizing: border-box;
+	width: 30%;
+	padding: 0.3em;
+	transition: 0.3s;
+	letter-spacing: 1px;
+	color: black;
+	border: 1px solid #1b2538;
+	border-radius: 4px;
+}
+
+.pass2 input[type='password']:focus{
+	border: 1px solid #da3c41;
+	outline: none;
+	box-shadow: 0 0 5px 1px rgba(218,60,65, .5);
+}
+
+.y_phone{
+	position: relative;
+	width: 95%;
+	margin: 10px 3%;
+}
+
+.y_phone input[type='text']{
+	font: 15px/24px sans-serif;
+	box-sizing: border-box;
+	width: 30%;
+	padding: 0.3em;
+	transition: 0.3s;
+	letter-spacing: 1px;
+	color: black;
+	border: 1px solid #1b2538;
+	border-radius: 4px;
+}
+
+.phone input[type='text']:focus{
+	border: 1px solid #da3c41;
+	outline: none;
+	box-shadow: 0 0 5px 1px rgba(218,60,65, .5);
+}
+
+a:link{
+    color: #ffccff;
+}
+
+a:visited{
+    color: #d25833;
+}
+
+a:hover{
+    color: #e3937a;
+}
+
+a:active{
+    color: #ff6a3b;
+}
+
+button.button{
+    color: #fff;
+    background-color: #f56200;
+    border-radius: 100vh;
+    font-size: large;
+    display: block;
+}
+
+button.button:hover{
+    color: #fff;
+    background: #f56500;
+}
+
+input{
+    font-size: 1.2em;
+    font-weight: bold;
+    padding: 10px 20px;
+    margin: 10px 3%;
+}
+
+p{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+/*スマホ向けCSS*/
+@media (max-width: 767px){
+
+html{
+	font-family: serif;
+	text-align: center;
+}
+
+html * {
+    box-sizing: border-box;
+}
+
+h1{
+	color: #3f5170;
+    font-size: x-large;
+    border-bottom: 3px dotted #3f5170;
+    margin: 5px 0;
+}
+
+h2{
+	font-size: larger;
+}
+
+h3{
+	font-size: larger;
+}
+
+.y_id input[type='text']{
+	width: 100%;
+}
+
+.y_name input[type='text']{
+	width: 100%;
+}
+
+.y_mail input[type='text']{
+	width: 100%;
+}
+
+.y_pass1 input[type='password']{
+	width: 100%;
+}
+
+.y_pass2 input[type='password']{
+	width: 100%;
+}
+
+.y_phone input[type='text']{
+	width: 100%;
+}
+
+.wrapper{
+	margin: 0 8px;
+}
+
+p{
+	font-weight: bold;
+	font-size: 20px;
+	text-align: left;
+	margin: 10px;
+	padding: 10px 30px;
+}
+}

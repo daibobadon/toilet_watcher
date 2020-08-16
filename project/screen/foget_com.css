@@ -1,0 +1,36 @@
+@charset "UTF-8";
+
+html{
+    font-family: serif;
+    text-align: center;
+}
+
+html * {
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0 0 0 0;
+    background-image: url("toilet_back.jpg");
+}
+
+.wrapper{
+    margin: 0 auto 0 auto;
+    max-width: 960px;
+    margin-top: 300px;
+    margin-bottom: 300px;
+}
+
+p{
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+}
+
+button{
+    font-size: 1.2em;
+    font-weight: bold;
+    padding: 10px 20px;
+    margin: 10px 3%;
+    text-align: center;
+}
